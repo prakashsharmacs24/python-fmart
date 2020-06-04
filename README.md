@@ -32,7 +32,7 @@ Installation
 
 
   ```bash
-  make test
+  make run
   ```
 
 * Run the unit test cases and produce coverage.
