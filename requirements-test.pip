@@ -1,0 +1,4 @@
+-r requirements.pip
+pytest==5.4.3
+pytest-cov==2.9.0
+flake8==3.8.2

@@ -1,0 +1,12 @@
+FROM python:3.8.0-slim
+
+WORKDIR /app
+
+COPY . /app/
+
+RUN pip install -r requirements-test.pip
+
+COPY ./run_tests.sh /run_tests.sh
+RUN chmod +x /run_tests.sh
+
+CMD  ["/run_tests.sh"]

@@ -1,0 +1,6 @@
+*.log
+*.pot
+*.pyc
+.coverage
+.pytest_cache
+__pycache__/
